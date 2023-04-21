@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --primary:#e60020;
+    --secondery1:#757575;
+    --secondery2:#cbcbcb;
+    --secondery3:#ededed;
+    --secondery4:#f0eff5;
+    --onPrimary:#f9f9f9;
+    --onSecondery:#353434;
+}
+@font-face {
+    font-family: YekanBakhBold;
+    src: url("./font/YekanBakhBold.woff") format("woff");
+}
+@font-face {
+    font-family: YekanBakhHeavy;
+    src: url("./font/YekanBakhHeavy.woff") format("woff");
+}
+@font-face {
+    font-family: YekanBakhMedium;
+    src: url("./font/YekanBakhMedium.woff") format("woff");
+}
