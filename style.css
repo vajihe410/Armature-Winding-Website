@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "YekanBakhMedium";
 }
 :root{
     --primary:#e60020;
@@ -15,7 +16,7 @@
     --white:#fff;
 }
 @font-face {
-    font-family: YekanBakhBold;
+    font-family: YekanBakhBoldz;
     src: url("./assets/font/YekanBakhBold.woff") format("woff");
 }
 @font-face {
@@ -26,30 +27,17 @@
     font-family: YekanBakhMedium;
     src: url("./assets/font/YekanBakhMedium.woff") format("woff");
 }
+body{
+    background-color: var(--secondery4);
+}
 header{
-    width: 100%;
     height: 80px;
     background-color: var(--onPrimary);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     position: sticky;
 }
 .navbar-brand img{
     width: 200px;
     height: 60px;
-    margin-left: 70px;
-}
-.nav{
-    list-style-type: none;
-    display: flex;
-    flex-direction: row-reverse;
-    margin-right: 70px;
-   
-} 
-.nav-item{
-    margin-left: 32px;
- 
 }
 .nav-link{
     color:var(--black);
@@ -57,4 +45,45 @@ header{
 }
 .nav-link:hover{
     color: var(--primary);
+}
+.landing{
+    height: calc(100vh - 80px);
+    background-image:linear-gradient(to top,var(--secondery2),var(--onPrimary),var(--secondery2)) ;
+}
+.landing div{
+    margin-top: 150px;
+}
+.landing a{
+    background-color: var(--primary);
+    color: var(--onPrimary);
+    font-size: 22px;
+}
+.landing a:hover{
+    background-color: var(--onPrimary);
+    color: var(--primary);
+    border-color: var(--primary);
+}
+.h3{
+    font-family:"YekanBakhBoldz";
+}
+.h4{
+    color: var(--onSecondery);
+    text-align: center;
+}
+
+.card{
+    width: 300px;
+    border-radius: 18px;
+    background-color: var(--onPrimary);
+}
+.card-img-top{
+    width: 60px;
+    height: 60px;
+}
+.card-title{
+    color: var(--primary);
+    font-family:"YekanBakhBoldz" ;
+}
+.card-text{
+    text-align: center;
 }
