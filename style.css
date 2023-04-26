@@ -28,7 +28,7 @@
     src: url("./assets/font/YekanBakhMedium.woff") format("woff");
 }
 body{
-    background-color: var(--secondery4);
+    background-color: var(--secondery2);
 }
 header{
     height: 80px;
@@ -48,7 +48,7 @@ header{
 }
 .landing{
     height: calc(100vh - 80px);
-    background-image:linear-gradient(to top,var(--secondery2),var(--onPrimary),var(--secondery2)) ;
+    background-image:linear-gradient(to top,rgb(173, 173, 173),rgb(231, 231, 231)) ;
 }
 .landing div{
     margin-top: 150px;
@@ -86,4 +86,36 @@ header{
 }
 .card-text{
     text-align: center;
+}
+.wave{
+    width: 100%;
+}
+.wave:first-child{
+    transform: rotate(180deg);
+}
+.option{
+    background-color: var(--secondery3);
+    padding: 30px 0;
+    direction: rtl;
+}
+/* .option p{
+    text-align: right;
+} */
+.h4{
+    font-family: "YekanBakhBoldz";
+    color: var(--primary);
+}
+.h5{
+    font-family: "YekanBakhBoldz";
+}
+
+.option svg{
+    background-color: var(--primary);
+    border-radius: 16px;
+    width: 24px;
+    height: 24px;
+    box-sizing: content-box;
+    padding: 2px;
+    fill: var(--white);
+    text-align: right;
 }
