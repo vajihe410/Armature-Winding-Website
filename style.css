@@ -90,9 +90,9 @@ header{
 .wave{
     width: 100%;
 }
-.wave:first-child{
+/* .wave:first-child{
     transform: rotate(180deg);
-}
+} */
 .option{
     background-color: var(--secondery3);
     padding: 30px 0;
@@ -118,4 +118,44 @@ header{
     padding: 2px;
     fill: var(--white);
     text-align: right;
+}
+.contactus{
+    height: 500px;
+    background-color: var(--secondery3);
+}
+.wave2{
+    transform: rotate(180deg);
+
+}
+.phone{
+    height: 500px
+    
+}
+.contactus p{
+    direction: rtl;
+    font-size: 24px;
+}
+.contactus p a{
+    color: var(--primary);
+    font-family: "YekanBakhBoldz";
+    text-decoration: none;
+}
+.social-media{
+    float: right;
+}
+.social-media a{
+    text-decoration: none;
+    color: var(--white);
+    border-radius: 10px;
+    font-size: 24px;
+    direction: rtl;
+}
+.social-media a:first-child{
+    background-color: #229ED9;
+}
+.social-media a:nth-child(2){
+    background-color: #25D366;
+}
+.social-media a:last-child{
+    background-image: linear-gradient(to right, #405DE6,#5851D8, #833AB4, #C13584, #E1306C,#FD1D1D,#F56040,#F77737,#FCAF45,#FFDC80);
 }
