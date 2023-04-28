@@ -31,7 +31,6 @@ body{
     background-color: var(--secondery2);
 }
 header{
-    height: 80px;
     background-color: var(--onPrimary);
     position: sticky;
 }
@@ -158,4 +157,28 @@ header{
 }
 .social-media a:last-child{
     background-image: linear-gradient(to right, #405DE6,#5851D8, #833AB4, #C13584, #E1306C,#FD1D1D,#F56040,#F77737,#FCAF45,#FFDC80);
+}
+.faq{
+    width: 100%;
+    height: auto;
+    border: 1px solid var(--primary);
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding: 8px 16px 8px 16px;
+    margin-bottom: 16px;
+    background-color: var(--secondery3);
+}
+.faq p{
+    direction: rtl;
+}
+/* .answer{
+    display: none;
+} */
+.show{
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.show svg{
+    color: var(--primary);
 }
