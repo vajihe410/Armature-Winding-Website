@@ -182,3 +182,16 @@ header{
 .show svg{
     color: var(--primary);
 }
+footer{
+    background-color: var(--onSecondery);
+}
+footer ul{
+    list-style-type: none;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+footer p{
+    color: var(--white);
+}
