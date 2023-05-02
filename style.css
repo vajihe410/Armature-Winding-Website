@@ -29,10 +29,10 @@
 }
 body{
     background-color: var(--secondery2);
+    font-family:YekanBakhMedium,Arial, Helvetica, sans-serif ;
 }
 header{
     background-color: var(--onPrimary);
-    position: sticky;
 }
 .navbar-brand img{
     width: 200px;
@@ -45,29 +45,25 @@ header{
 .nav-link:hover{
     color: var(--primary);
 }
-.landing{
-    height: calc(100vh - 80px);
+#landing{
+    height: 409px;
     background-image:linear-gradient(to top,rgb(173, 173, 173),rgb(231, 231, 231)) ;
 }
-.landing div{
-    margin-top: 150px;
-}
-.landing a{
+#landing a{
     background-color: var(--primary);
     color: var(--onPrimary);
-    font-size: 22px;
 }
-.landing a:hover{
+#landing a:hover{
     background-color: var(--onPrimary);
     color: var(--primary);
     border-color: var(--primary);
 }
-.h3{
+#landing .h3{
     font-family:"YekanBakhBoldz";
 }
-.h4{
+#landing .h4{
     color: var(--onSecondery);
-    text-align: center;
+
 }
 
 .card{
@@ -83,23 +79,11 @@ header{
     color: var(--primary);
     font-family:"YekanBakhBoldz" ;
 }
-.card-text{
-    text-align: center;
-}
-.wave{
-    width: 100%;
-}
-/* .wave:first-child{
-    transform: rotate(180deg);
-} */
+
 .option{
     background-color: var(--secondery3);
-    padding: 30px 0;
-    direction: rtl;
 }
-/* .option p{
-    text-align: right;
-} */
+
 .h4{
     font-family: "YekanBakhBoldz";
     color: var(--primary);
@@ -114,11 +98,10 @@ header{
     width: 24px;
     height: 24px;
     box-sizing: content-box;
-    padding: 2px;
     fill: var(--white);
     text-align: right;
 }
-.contactus{
+#contactus{
     height: 500px;
     background-color: var(--secondery3);
 }
@@ -130,24 +113,20 @@ header{
     height: 500px
     
 }
-.contactus p{
-    direction: rtl;
+#contactus p{
     font-size: 24px;
 }
-.contactus p a{
+#instagram-link{
     color: var(--primary);
     font-family: "YekanBakhBoldz";
     text-decoration: none;
 }
-.social-media{
-    float: right;
-}
+
 .social-media a{
     text-decoration: none;
     color: var(--white);
     border-radius: 10px;
     font-size: 24px;
-    direction: rtl;
 }
 .social-media a:first-child{
     background-color: #229ED9;
@@ -159,21 +138,13 @@ header{
     background-image: linear-gradient(to right, #405DE6,#5851D8, #833AB4, #C13584, #E1306C,#FD1D1D,#F56040,#F77737,#FCAF45,#FFDC80);
 }
 .faq{
-    width: 100%;
-    height: auto;
     border: 1px solid var(--primary);
     border-radius: 8px;
     box-sizing: border-box;
     padding: 8px 16px 8px 16px;
-    margin-bottom: 16px;
     background-color: var(--secondery3);
 }
-.faq p{
-    direction: rtl;
-}
-/* .answer{
-    display: none;
-} */
+
 .show{
     border: none;
     background: none;
@@ -194,4 +165,10 @@ footer a{
 }
 footer p{
     color: var(--white);
+}
+.social-media-link a:hover{
+    color: var(--primary);
+}
+.page-link a:hover{
+    color: var(--primary);
 }
